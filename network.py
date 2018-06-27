@@ -27,6 +27,6 @@ def network(x,keep_prob):
 
     fc4_w = weights_variable([50,1])
     fc4_b = bias_variable([1])
-    logit = tf.sigmoid( tf.matmul(fc3,fc4_w)+fc4_b )
+    logit = tf.matmul(fc3,fc4_w)+fc4_b
 
     return logit

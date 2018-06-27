@@ -1,2 +1,4 @@
 #paths
-DATADIR = 'G:/Home Credit Default Risk'
+DATADIR = 'F:/Home Credit Default Risk'
+LOGDIR = './LOG'
+CHECKFILE = './model/model.ckpt'
